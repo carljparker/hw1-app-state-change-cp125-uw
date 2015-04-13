@@ -33,5 +33,41 @@
     }
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+
+    if( animated )
+    {
+        NSLog(@"%s . . . animated", __PRETTY_FUNCTION__);
+    }
+    else {
+        NSLog(@"%s", __PRETTY_FUNCTION__);
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+
+    if( animated )
+    {
+        NSLog(@"%s . . . animated", __PRETTY_FUNCTION__);
+    }
+    else {
+        NSLog(@"%s", __PRETTY_FUNCTION__);
+    }
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+
+    if( animated )
+    {
+        NSLog(@"%s . . . animated", __PRETTY_FUNCTION__);
+    }
+    else {
+        NSLog(@"%s", __PRETTY_FUNCTION__);
+    }
+}
+
 
 @end
