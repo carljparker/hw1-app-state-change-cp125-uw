@@ -34,6 +34,9 @@
 {
     
     NSLog(@"%s", __PRETTY_FUNCTION__);
+    for (NSString *option in launchOptions.allKeys) {
+        NSLog(@"%@ :: %@", option, launchOptions[option] );
+    }
     
     return YES;
     
