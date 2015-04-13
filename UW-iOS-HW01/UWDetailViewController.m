@@ -24,8 +24,13 @@
 - (void)viewWillAppear:(BOOL)animated
 {
 
-    NSLog(@"%s", __PRETTY_FUNCTION__);
-    
+    if( animated )
+    {
+        NSLog(@"%s . . . animated", __PRETTY_FUNCTION__);
+    }
+    else {
+        NSLog(@"%s", __PRETTY_FUNCTION__);
+    }
 }
 
 
