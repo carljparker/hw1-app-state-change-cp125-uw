@@ -43,5 +43,44 @@
 }
 
 
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    
+}
+
+- (void) applicationWillResignActive:(UIApplication *) application
+{
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+    
+}
+
+
+- (void) applicationDidEnterBackground:(UIApplication *) application
+{
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+}
+
+
+- (void) applicationWillEnterForeground:(UIApplication *) application
+{
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+}
+
+
+- (void) applicationWillTerminate:(UIApplication *) application
+{
+
+    NSLog(@"%s", __PRETTY_FUNCTION__);
+
+}
+
 
 @end
+
