@@ -39,5 +39,86 @@
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewDidDisappear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidDisappear:)
 
 
+## App Run Log ##
+
+//
+// Launch app from Xcode
+//
+2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:willFinishLaunchingWithOptions:]
+2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:didFinishLaunchingWithOptions:]
+2015-04-15 18:46:16.219 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:]
+2015-04-15 18:46:16.240 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
+2015-04-15 18:46:16.241 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
+
+//
+// Click Tap for new View
+//
+2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:] . . . animated
+2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillAppear:] . . . animated
+2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidAppear:] . . . animated
+2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
+
+//
+// Click Tap to close
+//
+2015-04-15 18:46:57.987 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillDisappear:] . . . animated
+2015-04-15 18:46:57.988 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:] . . . animated
+2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
+2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidDisappear:] . . . animated
+
+//
+// Click Home button
+//
+2015-04-15 18:47:04.826 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
+2015-04-15 18:47:05.354 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
+
+//
+// Click the app on the Home screen
+//
+2015-04-15 18:47:15.010 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillEnterForeground:]
+2015-04-15 18:47:15.528 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
+
+//
+// Double-tap the Home button
+//
+2015-04-15 18:47:28.946 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
+
+//
+// Swipe the app off the top of the screen
+//
+2015-04-15 18:47:41.739 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
+2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:]
+2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
+2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillTerminate:]
+
+
+## Methods Called During Test ##
+
+All methods were called during this test. For the Master View
+Controller, **viewWillAppear** and **viewWillDisappear** were called
+with the _animated_ parameter set to YES and with it set to NO.  For the
+Detail View Controller, all the relevant methods were called with
+_animated_ set to YES.
+
+-[UWAppDelegate application:didFinishLaunchingWithOptions:]
+-[UWAppDelegate application:willFinishLaunchingWithOptions:]
+-[UWAppDelegate applicationDidBecomeActive:]
+-[UWAppDelegate applicationDidEnterBackground:]
+-[UWAppDelegate applicationWillEnterForeground:]
+-[UWAppDelegate applicationWillResignActive:]
+-[UWAppDelegate applicationWillTerminate:]
+
+-[UWDetailViewController viewDidAppear:] . . . animated
+-[UWDetailViewController viewDidDisappear:] . . . animated
+-[UWDetailViewController viewWillAppear:] . . . animated
+-[UWDetailViewController viewWillDisappear:] . . . animated
+
+-[UWMasterViewController viewDidAppear:]
+-[UWMasterViewController viewDidDisappear:]
+-[UWMasterViewController viewWillAppear:]
+-[UWMasterViewController viewWillAppear:] . . . animated
+-[UWMasterViewController viewWillDisappear:]
+-[UWMasterViewController viewWillDisappear:] . . . animated
+
 *** END ***
 
