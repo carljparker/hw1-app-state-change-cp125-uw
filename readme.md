@@ -2,94 +2,94 @@
 ## UIApplicationDelegate ##
 <https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/>
 
-## application:willFinishLaunchingWithOptions: ##
+### application:willFinishLaunchingWithOptions: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/application:willFinishLaunchingWithOptions:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/application:willFinishLaunchingWithOptions:)
 
-## application:didFinishLaunchingWithOptions: ##
+### application:didFinishLaunchingWithOptions: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/application:didFinishLaunchingWithOptions:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/application:didFinishLaunchingWithOptions:)
 
-## application:DidBecomeActive: ##
+### application:DidBecomeActive: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidBecomeActive:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidBecomeActive:)
 
-## application:WillResignActive: ##
+### application:WillResignActive: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillResignActive:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillResignActive:)
 
-## application:DidEnterBackground: ##
+### application:DidEnterBackground: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidEnterBackground:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidEnterBackground:)
 
-## application:WillEnterForeground: ##
+### application:WillEnterForeground: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillEnterForeground:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillEnterForeground:)
 
-## application:WillTerminate: ##
+### application:WillTerminate: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillTerminate:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillTerminate:)
 
-## UIViewController ##
+### UIViewController ###
 <https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/>
 
-## viewWillAppear ##
+### viewWillAppear ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewWillAppear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewWillAppear:)
 
-## viewDidAppear: ##
+### viewDidAppear: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewDidAppear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidAppear:)
 
-## viewWillDisappear: ##
+### viewWillDisappear: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewWillDisappear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewWillDisappear:)
 
-## viewDidDisappear: ##
+### viewDidDisappear: ###
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewDidDisappear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidDisappear:)
 
 
 ## App Run Log ##
 
-//
-// Launch app from Xcode
-//
-2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:willFinishLaunchingWithOptions:]
-2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:didFinishLaunchingWithOptions:]
-2015-04-15 18:46:16.219 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:]
-2015-04-15 18:46:16.240 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
-2015-04-15 18:46:16.241 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
+    //
+    // Launch app from Xcode
+    //
+    2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:willFinishLaunchingWithOptions:]
+    2015-04-15 18:46:16.214 UW-iOS-HW01[3487:92640] -[UWAppDelegate application:didFinishLaunchingWithOptions:]
+    2015-04-15 18:46:16.219 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:]
+    2015-04-15 18:46:16.240 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
+    2015-04-15 18:46:16.241 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
 
-//
-// Click Tap for new View
-//
-2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:] . . . animated
-2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillAppear:] . . . animated
-2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidAppear:] . . . animated
-2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
+    //
+    // Click Tap for new View
+    //
+    2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:] . . . animated
+    2015-04-15 18:46:36.041 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillAppear:] . . . animated
+    2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidAppear:] . . . animated
+    2015-04-15 18:46:36.544 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
 
-//
-// Click Tap to close
-//
-2015-04-15 18:46:57.987 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillDisappear:] . . . animated
-2015-04-15 18:46:57.988 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:] . . . animated
-2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
-2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidDisappear:] . . . animated
+    //
+    // Click Tap to close
+    //
+    2015-04-15 18:46:57.987 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewWillDisappear:] . . . animated
+    2015-04-15 18:46:57.988 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillAppear:] . . . animated
+    2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidAppear:]
+    2015-04-15 18:46:58.493 UW-iOS-HW01[3487:92640] -[UWDetailViewController viewDidDisappear:] . . . animated
 
-//
-// Click Home button
-//
-2015-04-15 18:47:04.826 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
-2015-04-15 18:47:05.354 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
+    //
+    // Click Home button
+    //
+    2015-04-15 18:47:04.826 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
+    2015-04-15 18:47:05.354 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
 
-//
-// Click the app on the Home screen
-//
-2015-04-15 18:47:15.010 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillEnterForeground:]
-2015-04-15 18:47:15.528 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
+    //
+    // Click the app on the Home screen
+    //
+    2015-04-15 18:47:15.010 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillEnterForeground:]
+    2015-04-15 18:47:15.528 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidBecomeActive:]
 
-//
-// Double-tap the Home button
-//
-2015-04-15 18:47:28.946 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
+    //
+    // Double-tap the Home button
+    //
+    2015-04-15 18:47:28.946 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillResignActive:]
 
-//
-// Swipe the app off the top of the screen
-//
-2015-04-15 18:47:41.739 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
-2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:]
-2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
-2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillTerminate:]
+    //
+    // Swipe the app off the top of the screen
+    //
+    2015-04-15 18:47:41.739 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationDidEnterBackground:]
+    2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewWillDisappear:]
+    2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWMasterViewController viewDidDisappear:]
+    2015-04-15 18:47:41.842 UW-iOS-HW01[3487:92640] -[UWAppDelegate applicationWillTerminate:]
 
 
 ## Methods Called During Test ##
@@ -100,25 +100,25 @@ with the _animated_ parameter set to YES and with it set to NO.  For the
 Detail View Controller, all the relevant methods were called with
 _animated_ set to YES.
 
--[UWAppDelegate application:didFinishLaunchingWithOptions:]
--[UWAppDelegate application:willFinishLaunchingWithOptions:]
--[UWAppDelegate applicationDidBecomeActive:]
--[UWAppDelegate applicationDidEnterBackground:]
--[UWAppDelegate applicationWillEnterForeground:]
--[UWAppDelegate applicationWillResignActive:]
--[UWAppDelegate applicationWillTerminate:]
+    -[UWAppDelegate application:didFinishLaunchingWithOptions:]
+    -[UWAppDelegate application:willFinishLaunchingWithOptions:]
+    -[UWAppDelegate applicationDidBecomeActive:]
+    -[UWAppDelegate applicationDidEnterBackground:]
+    -[UWAppDelegate applicationWillEnterForeground:]
+    -[UWAppDelegate applicationWillResignActive:]
+    -[UWAppDelegate applicationWillTerminate:]
 
--[UWDetailViewController viewDidAppear:] . . . animated
--[UWDetailViewController viewDidDisappear:] . . . animated
--[UWDetailViewController viewWillAppear:] . . . animated
--[UWDetailViewController viewWillDisappear:] . . . animated
+    -[UWDetailViewController viewDidAppear:] . . . animated
+    -[UWDetailViewController viewDidDisappear:] . . . animated
+    -[UWDetailViewController viewWillAppear:] . . . animated
+    -[UWDetailViewController viewWillDisappear:] . . . animated
 
--[UWMasterViewController viewDidAppear:]
--[UWMasterViewController viewDidDisappear:]
--[UWMasterViewController viewWillAppear:]
--[UWMasterViewController viewWillAppear:] . . . animated
--[UWMasterViewController viewWillDisappear:]
--[UWMasterViewController viewWillDisappear:] . . . animated
+    -[UWMasterViewController viewDidAppear:]
+    -[UWMasterViewController viewDidDisappear:]
+    -[UWMasterViewController viewWillAppear:]
+    -[UWMasterViewController viewWillAppear:] . . . animated
+    -[UWMasterViewController viewWillDisappear:]
+    -[UWMasterViewController viewWillDisappear:] . . . animated
 
 *** END ***
 
