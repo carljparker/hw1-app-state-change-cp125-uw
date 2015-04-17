@@ -5,6 +5,8 @@ repository on GitHub:
 
 >  <https://github.com/carljparker/hw1-app-state-change-cp125-uw>
 
+**Note** All readme files provided with this homework are identical.
+
 ## App Run Log ##
 
 The following is an annotated log that shows the state transitions for
