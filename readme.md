@@ -1,4 +1,15 @@
+# Homework 1 :: CP 125 iOS App Dev, Spring 2015 #
+
+The files for this homework are also available at the following
+repository on GitHub:
+
+>  <https://github.com/carljparker/hw1-app-state-change-cp125-uw>
+
 ## App Run Log ##
+
+The following is an annotated log that shows the state transitions for
+the homework application. The annotations are shown in double slash
+comments and were added after the log output was collected.
 
     //
     // Launch app from Xcode
@@ -79,45 +90,49 @@ _animated_ set to YES.
     -[UWMasterViewController viewWillDisappear:]
     -[UWMasterViewController viewWillDisappear:] . . . animated
 
-## UIApplicationDelegate ##
-<https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/>
+## Relevant Apple Documentation ##
 
-### application:willFinishLaunchingWithOptions: ###
+This section contains links to the relevant pages in Apple's
+documentation. I referenced these pages while working on the homework.
+
+### UIApplicationDelegate ###
+>  <https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/>
+
+#### application:willFinishLaunchingWithOptions: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/application:willFinishLaunchingWithOptions:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/application:willFinishLaunchingWithOptions:)
 
-### application:didFinishLaunchingWithOptions: ###
+#### application:didFinishLaunchingWithOptions: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/application:didFinishLaunchingWithOptions:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/application:didFinishLaunchingWithOptions:)
 
-### application:DidBecomeActive: ###
+#### application:DidBecomeActive: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidBecomeActive:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidBecomeActive:)
 
-### application:WillResignActive: ###
+#### application:WillResignActive: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillResignActive:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillResignActive:)
 
-### application:DidEnterBackground: ###
+#### application:DidEnterBackground: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidEnterBackground:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationDidEnterBackground:)
 
-### application:WillEnterForeground: ###
+#### application:WillEnterForeground: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillEnterForeground:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillEnterForeground:)
 
-### application:WillTerminate: ###
+#### application:WillTerminate: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillTerminate:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplicationDelegate_Protocol/#//apple_ref/occ/intfm/UIApplicationDelegate/applicationWillTerminate:)
 
 ### UIViewController ###
-<https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/>
+>  <https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/>
 
-### viewWillAppear ###
+#### viewWillAppear ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewWillAppear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewWillAppear:)
 
-### viewDidAppear: ###
+#### viewDidAppear: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewDidAppear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidAppear:)
 
-### viewWillDisappear: ###
+#### viewWillDisappear: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewWillDisappear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewWillDisappear:)
 
-### viewDidDisappear: ###
+#### viewDidDisappear: ####
 [https://developer.apple.com/. . . /#//apple_ref/occ/instm/UIViewController/viewDidDisappear:](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIViewController_Class/#//apple_ref/occ/instm/UIViewController/viewDidDisappear:)
-
 
 
 *** END ***
